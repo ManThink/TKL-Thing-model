@@ -13,7 +13,7 @@ This repository contains the TKL (ThinkLink) library, which provides functionali
 
 ## Introduction
 
-ThinkLink V2 (TKL) is a comprehensive and highly integrated IoT system designed for building efficient, secure, and scalable LoRaWAN solutions. It includes a complete LoRaWAN Network Server (NS) for centralized management of LoRaWAN devices and gateways, ensuring network stability and secure device access. TKL also supports data integration from third-party systems via the standard MQTT protocol, enabling unified management of multi-source data and enhancing the platform's openness and compatibility.
+ThinkLink (TKL) is a comprehensive and highly integrated IoT system designed for building efficient, secure, and scalable LoRaWAN solutions. It includes a complete LoRaWAN Network Server (NS) for centralized management of LoRaWAN devices and gateways, ensuring network stability and secure device access. TKL also supports data integration from third-party systems via the standard MQTT protocol, enabling unified management of multi-source data and enhancing the platform's openness and compatibility.
 
 TKL offers significant deployment flexibility, allowing users to choose the most suitable deployment method based on project requirements and environmental characteristics:
 
@@ -302,6 +302,7 @@ To get started with the TKL library, you will need to have a ThinkLink environme
 
 ## Contact Us
 
+-   **TKL**: [https://thinklink.manthink.cn](https://thinklink.manthink.cn/#page1)
 -   **Website**: [www.manthink.cn](http://www.manthink.cn/#page1)
 -   **Email**: [info@manthink.cn](mailto:info@manthink.cn)
 -   **Phone**: +86-15810684257
