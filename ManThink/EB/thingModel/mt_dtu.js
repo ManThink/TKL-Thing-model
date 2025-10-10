@@ -30,7 +30,7 @@ function payload_parser({device, msg, thingModelId, noticeAttrs}) {
                     if (size < (2 + i)) { break; }
                     system_info.FuotaVersion = payload[index + i] & 0x0F;
                     let hw_type_low = (payload[index + i] >> 4) & 0x0F;
-                    let hw_type_high = payload[index + i];
+                    let hw_type_high = payload[index + i+1];
                     let hw_type=(hw_type_high<<4)|(hw_type_low&0x0F)
                     if (hw_type==40) {
                         system_info.HwType="OM422"
