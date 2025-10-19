@@ -1,6 +1,6 @@
 function rpc_script({device, values}) {
     function encode(msg) {
-        let buffer = Buffer.from(values.data.replace(/\s/g, ""), "hex")
+        let buffer = Buffer.from(values.data.replaceAll(' ', ''), "hex")
         return buffer.toString("base64");
     }
     return [
@@ -21,6 +21,10 @@ function rpc_script({device, values}) {
                     "dnWaitms":0,
                     "type":"data",
                     "intervalms":0
+                },
+                "specify": {
+                    "gweui": (values.gweui==="auto")?"":values.gweui,
+                    "txTime": ""
                 }
             }
         }
